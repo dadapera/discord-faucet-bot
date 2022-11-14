@@ -1,5 +1,5 @@
 # Discord Faucet Bot 
-This bot let server users to claim an amount of test token on different testnets, only once every 24 hours.
+This bot let the users of a Discord server to claim an amount of test token on different testnets, only once every 24 hours.
 
 Already implemented:
 - Goerli: ETH, LINK
