@@ -1,0 +1,35 @@
+{
+  "name": "discord-faucet-bot",
+  "version": "1.0.0",
+  "description": "discord bot for sending testnet tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/Bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadapera/discord-faucet-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "faucet",
+    "bot"
+  ],
+  "author": "dadapera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadapera/discord-faucet-bot/issues"
+  },
+  "homepage": "https://github.com/dadapera/discord-faucet-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "ethers": "^5.7.2",
+    "pg-promise": "^10.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
